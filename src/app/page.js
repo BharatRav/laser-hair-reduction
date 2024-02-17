@@ -1,4 +1,7 @@
+import BreadChip from "@/components/BreadChip";
 import Hero from "@/components/HomePage/HeroSection";
+import ServiceAndBenefits from "@/components/HomePage/ServiceAndBenefits";
+import Treatments from "@/components/HomePage/Treatments";
 import TopHeader from "@/components/TopHeader/TopHeader";
 
 export default function Home() {
@@ -6,7 +9,10 @@ export default function Home() {
     <div className="min-h-screen w-full">
       <div>
         <TopHeader />
-        <div className="body"><Hero/></div>
+        <Hero/>
+        <ServiceAndBenefits/>
+        <Treatments/>
+        <BreadChip/>
       </div>
     </div>
   );
