@@ -6,7 +6,7 @@ export default function Home() {
     <div className="min-h-screen w-full">
       <div>
         <TopHeader />
-        <div className="body bg-red-600"><Hero/></div>
+        <div className="body"><Hero/></div>
       </div>
     </div>
   );
