@@ -1,5 +1,8 @@
 import BreadChip from "@/components/BreadChip";
+import CostCalculator from "@/components/HomePage/CostCalculator";
 import Hero from "@/components/HomePage/HeroSection";
+import OurGallery from "@/components/HomePage/OurGallery";
+import RealResults from "@/components/HomePage/RealResult";
 import ServiceAndBenefits from "@/components/HomePage/ServiceAndBenefits";
 import Treatments from "@/components/HomePage/Treatments";
 import TopHeader from "@/components/TopHeader/TopHeader";
@@ -9,10 +12,15 @@ export default function Home() {
     <div className="min-h-screen w-full">
       <div>
         <TopHeader />
-        <Hero/>
-        <ServiceAndBenefits/>
-        <Treatments/>
-        <BreadChip/>
+        <Hero />
+        <ServiceAndBenefits />
+        <Treatments />
+        <BreadChip />
+        <RealResults />
+        <CostCalculator />
+        <div>
+          <OurGallery />
+        </div>
       </div>
     </div>
   );
