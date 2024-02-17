@@ -18,6 +18,6 @@ export default function BreadChip() {
 }
 
 function Chip({src,title}){
-    return <div className="flex gap-4 md:flex-row flex-col items-center justify-center"><Image width={60} height={60} src={src} className="rounded-full"/>
+    return <div className="flex gap-4 md:flex-row flex-col items-center justify-center"><Image width={60} height={60} src={src} className="rounded-full" alt="care"/>
     <p className="capitalize">{title}</p></div>
 }
