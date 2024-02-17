@@ -54,7 +54,7 @@ export default function TreatMents() {
 function Card({ src, title }) {
   return (
     <div className="p-4 shadow-sm bg-white flex flex-col items-center gap-3 rounded">
-      <Image width={1600} height={1200} className="rounded-sm" src={src} />
+      <Image width={1600} height={1200} className="rounded-sm" src={src} alt="care" />
       <div className="flex flex-col justify-between h-full">
         <p className="font-bold text-lg text-center">{title}</p>
         <button className="rounded bg-pink-300 capitalize text-center w-fit px-4 mx-auto text-white py-1">
