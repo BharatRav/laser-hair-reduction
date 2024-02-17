@@ -10,7 +10,7 @@ export default function BreadChip() {
   return (
     <div className="flex overflow-x-scroll flex-row gap-4 justify-center md:gap-12 py-6 container mx-auto">
       {data.map((item, index) => {
-        return <Chip src={item?.src} title={item.title} />;
+        return <Chip key={index} src={item?.src} title={item.title} />;
       })}
     </div>
   );
