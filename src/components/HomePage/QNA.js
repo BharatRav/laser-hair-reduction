@@ -33,14 +33,14 @@ export default function QNA() {
     },
   ];
   return (
-    <div className="flex flex-col bg-white md:flex-row md:gap-6 justify-center md:justify-around items-start px-5">
-      <div className="md:text-4xl text-2xl font-medium text-center md:w-2/5">
+    <div className="flex flex-col bg-white md:flex-row md:gap-6 py-5 justify-center md:justify-around items-start px-5">
+      <div className="md:text-4xl text-2xl font-medium w-full text-center md:w-2/5 py-5">
         <strong className="text-[#F09278]">Answer to Questions</strong>
         <br />
         <string className="text-[#1B3358] md:text-center">FAQs</string>
       </div>
 
-      <div class="grid divide-y divide-neutral-200 mx-auto mt-8 w-full md:max-w-2xl">
+      <div class="grid divide-y divide-neutral-200 mx-auto mt-8 w-full md:max-w-2xl gap-2">
         {qnaData.map((item, index) => (
           <AccordionItem
             index={index + 1}
@@ -59,7 +59,7 @@ const AccordionItem = ({ question, answer, index }) => {
     index = `0${index}`;
   }
   return (
-    <div class="py-5">
+    <div class="">
       <details class="group transition-all w-full">
         <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
           <span>

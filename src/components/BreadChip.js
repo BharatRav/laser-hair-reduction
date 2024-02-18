@@ -9,7 +9,7 @@ export default function BreadChip() {
     { src: "https://demowebsite.codingclave.org/laser-hair-removal/img/young-beautiful-woman-with-perfect-body-underwear-posing-gradient-background.png", title: "Full Body" },
   ];
   return (
-    <div className="flex overflow-x-scroll flex-row gap-4 justify-center md:gap-12 py-6 container mx-auto">
+    <div className="flex overflow-x-hidden flex-row gap-4 justify-center md:gap-12 py-6 container mx-auto">
       {data.map((item, index) => {
         return <Chip key={index} src={item?.src} title={item.title} />;
       })}
