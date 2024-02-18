@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "swiper/css";
 
-import { Navigation, Pagination } from "swiper/modules";
 export default function OurGallery() {
   const data = [
     {
@@ -30,7 +29,6 @@ export default function OurGallery() {
           loop={true}
           pagination={true}
           navigation={true}
-          modules={[Navigation]}
           spaceBetween={50}
           slidesPerView={4}
           draggable={true}

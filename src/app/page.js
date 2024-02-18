@@ -1,7 +1,9 @@
+'use client'
 import BreadChip from "@/components/BreadChip";
 import CostCalculator from "@/components/HomePage/CostCalculator";
 import Hero from "@/components/HomePage/HeroSection";
 import OurGallery from "@/components/HomePage/OurGallery";
+import QNA from "@/components/HomePage/QNA";
 import RealResults from "@/components/HomePage/RealResult";
 import ServiceAndBenefits from "@/components/HomePage/ServiceAndBenefits";
 import Treatments from "@/components/HomePage/Treatments";
@@ -16,11 +18,12 @@ export default function Home() {
         <ServiceAndBenefits />
         <Treatments />
         <BreadChip />
-        <RealResults />
+        {/* <RealResults /> */}
         <CostCalculator />
         <div>
-          <OurGallery />
+          {/* <OurGallery /> */}
         </div>
+        <QNA/>
       </div>
     </div>
   );
